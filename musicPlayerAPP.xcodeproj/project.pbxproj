@@ -13,6 +13,8 @@
 		D9E4909226AAAEFD00D3A959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E4909026AAAEFD00D3A959 /* Main.storyboard */; };
 		D9E4909426AAAEFE00D3A959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E4909326AAAEFE00D3A959 /* Assets.xcassets */; };
 		D9E4909726AAAEFE00D3A959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E4909526AAAEFE00D3A959 /* LaunchScreen.storyboard */; };
+		D9E4909F26AAB1A900D3A959 /* chickBeep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D9E4909E26AAB1A900D3A959 /* chickBeep.mp3 */; };
+		D9E490A126AAB25700D3A959 /* babyShark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D9E490A026AAB25700D3A959 /* babyShark.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D9E4909326AAAEFE00D3A959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9E4909626AAAEFE00D3A959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9E4909826AAAEFE00D3A959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E4909E26AAB1A900D3A959 /* chickBeep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chickBeep.mp3; sourceTree = "<group>"; };
+		D9E490A026AAB25700D3A959 /* babyShark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = babyShark.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		D9E4908926AAAEFD00D3A959 /* musicPlayerAPP */ = {
 			isa = PBXGroup;
 			children = (
+				D9E4909E26AAB1A900D3A959 /* chickBeep.mp3 */,
+				D9E490A026AAB25700D3A959 /* babyShark.mp3 */,
 				D9E4908A26AAAEFD00D3A959 /* AppDelegate.swift */,
 				D9E4908C26AAAEFD00D3A959 /* SceneDelegate.swift */,
 				D9E4908E26AAAEFD00D3A959 /* ViewController.swift */,
@@ -125,8 +131,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9E4909726AAAEFE00D3A959 /* LaunchScreen.storyboard in Resources */,
+				D9E4909F26AAB1A900D3A959 /* chickBeep.mp3 in Resources */,
 				D9E4909426AAAEFE00D3A959 /* Assets.xcassets in Resources */,
 				D9E4909226AAAEFD00D3A959 /* Main.storyboard in Resources */,
+				D9E490A126AAB25700D3A959 /* babyShark.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZHI.musicPlayerAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZHI.musicPlayerAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
